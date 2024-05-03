@@ -1,5 +1,10 @@
 body {
-    margin: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 header {
   padding: 30px 70px;
@@ -15,9 +20,6 @@ header {
   align-items: center;
 }
 #navigator {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -34,8 +36,9 @@ li a {
   border-radius: 8px;
   padding: 8px 16px;
 }
-li a:hover, li a:active {
-    background-color: rgba(255, 255, 255, 0.322);
+li a:hover,
+li a:active {
+  background-color: rgba(255, 255, 255, 0.322);
 }
 #logo a {
   font-family: "chewy", sans-serif;
