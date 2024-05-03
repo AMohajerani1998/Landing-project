@@ -1,29 +1,44 @@
-header{
-    padding: 40px 60px;
+#hero {
+  height: 800px;
+  background-image: url(/Landing%20project/Images/Destinations/Ocean.jpg);
+  background-position: center;
+  background-size: cover;
 }
-#container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#hero-content {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.477);
+  border-radius: 8px;
+  font-family: 'kalam', sans-serif;
+  box-shadow: 4px 4px 8px rgb(36, 36, 36);
+  text-align: center;
+  padding: 80px 40px 60px 40px;
+  position: relative;
+  top: 25%;
+  color: white;
 }
-#navigator {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
+#hero-content h2 {
+  margin: 0;
+  font-weight: 300px;
+  font-size: 60px;
 }
-#navigator li{
-    margin-left: 50px;
-    font-family: 'kalam', sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
+#hero-content p {
+    font-size: 25px;
+    font-weight: 5px;
 }
-#logo a {
-    font-family: 'chewy', sans-serif;
-    font-weight: bolder;
-    color: rgb(254, 255, 237);
+#hero-content a {
+    font-family: 'dela gothic one', sans-serif;
+    display: inline-block;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.584);
+    font-size: 18px;
     text-decoration: none;
-    font-size: 50px;
-    text-shadow: 1px 2px 4px rgb(93, 93, 93);
+    color: rgb(0, 0, 0);
+    border-radius: 10px 0 10px 0;
+    padding: 8px 28px;
+    box-shadow: 4px 4px 8px rgb(38, 38, 38);
+}
+#hero-content a:active, #hero-content a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.553);
 }
