@@ -32,7 +32,7 @@ header {
 li a {
   text-decoration: none;
   color: rgb(254, 255, 237);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.533);
+  text-shadow: 2px 4px 8px rgb(0, 0, 0);
   border-radius: 8px;
   padding: 8px 16px;
 }
