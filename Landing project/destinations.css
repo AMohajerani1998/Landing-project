@@ -1,21 +1,21 @@
 body {
   background-color: rgb(52, 52, 52);
 }
-header {
+#container {
   position: static;
 }
 #logo a {
-  text-shadow: 2px 2px 4px black;
+  text-shadow: .125rem .125rem .25rem black;
 }
 #navigator li a {
-  text-shadow: 2px 2px 4px black;
+  text-shadow: .125rem .125rem .25rem black;
 }
 #destinations {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 1000px;
-  margin: 0 auto 15px auto;
-  /* gap: 0 10px */
+  width: 62.5rem;
+  margin: 0 auto .9375rem auto;
+  /* gap: 0 .625rem */
 }
 .destination:nth-of-type(3) {
   grid-column: 1 / 3;
@@ -27,25 +27,25 @@ header {
 .destination {
   display: flex;
   overflow: hidden;
-  margin: 10px;
-  border-radius: 8px;
+  margin: .625rem;
+  border-radius: .5rem;
   background-color: white;
-  box-shadow: 1px 1px 2px black;
+  box-shadow: .0625rem .0625rem .125rem black;
 }
 .destination-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: .625rem 1.25rem;
 }
 .destination img {
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   object-fit: cover;
 }
 .destination-content p {
   margin: 0;
-  padding-right: 20px;
+  padding-right: 1.25rem;
   font-size: smaller;
 }
 .destination-content .actions {
@@ -55,8 +55,8 @@ header {
   text-decoration: none;
   font-family: "raleway";
   font-weight: 600;
-  padding: 3px 6px;
-  border-radius: 6px;
+  padding: .1875rem .375rem;
+  border-radius: .375rem;
   text-transform: capitalize;
   color: #73a9fa;
 }
